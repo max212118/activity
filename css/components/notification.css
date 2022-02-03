@@ -1,0 +1,51 @@
+.notification {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 8px 16px;
+    border-bottom: 1px solid rgb(235,235,235);
+}
+
+.notifications {
+    margin-top: 20px;
+}
+
+.date_and_notification {
+    padding-left: 20px;
+    flex-grow: 1;
+    font-size: 16px;
+}
+
+.date_and_notification p{
+   margin: 0;
+}
+
+.date_and_notification h5{
+   color: grey;
+   margin: 0;
+}
+
+.date_and_notification a {
+    color: #237FC2;
+    text-decoration: none;
+}
+
+.notification > a {
+    text-decoration: none;
+    font-size: 14;
+    color: white;
+}
+
+.notification:hover > a {
+    font-size: 14;
+    color: grey;
+}
+
+.notification > a:hover {
+    font-size: 14;
+    color: black;
+}
+
+
+
+
